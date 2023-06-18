@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleUi</title>
+</head>
+<body>
+    <form>
+        <label>Name :</label>
+        <input type="text" /><br>
+        <label>DOB :</label>
+        <input type="text" /><br>
+        <label>MotherName :</label>
+        <input type="text" /><br>
+        <label>FatherName :</label>
+        <input type="text" /><br>
+        <label>10Th mark :</label>
+        <input type="number" /><br>
+        <label>12th mark :</label>
+        <input type="number" /><br>
+        <label>Physics mark :</label>
+        <input type="number" id="phy"/><br>
+        <label>Chemistry mark :</label>
+        <input type="number" id="chm" /><br>
+        <label>Maths mark :</label>
+        <input type="number" id="mat"/><br>
+        <a href="https://www.dotnetfunda.com/articles/show/3284/display-totalaveragegrade-and-result-of-student" > link here </a>
+        <label>Average :</label>
+        <label>Cutoff :</label>
+        <input type="submit" placeholder="Submit" onclick="remark()" />
+        
+        
+    </form>
+    <script>
+        function remark(){
+            let phy = parseInt(document.getElementById("phy"));
+            let chm = parseInt(document.getElementById("chm"));
+            let mat = parseInt(document.getElementById("mat"));
+
+            let avg = (phy + chm + mat) /3;
+            let cutoff = (phy / 4)+(chm/4)+(mat/2);
+
+        }
+    </script>
+</body>
+</html>

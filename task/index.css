@@ -1,0 +1,249 @@
+.head {
+  position: absolute;
+  top: 0%;
+  height: 8.6%;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: -1.7%;
+  background-color: white;
+  z-index: 10;
+  left: 0%;
+
+  box-sizing: border-box;
+}
+
+header {
+  background-color: white;
+  padding: 1em 0;
+  width: 100%;
+}
+
+.logo {
+  color: #fa3e19;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 150%;
+  left: 40%;
+  top: 0.8rem;
+  position: absolute;
+}
+.logo:hover {
+  cursor: pointer;
+}
+
+.logoicon {
+  position: relative;
+  height: 8vh;
+  width: 4vw;
+  margin-top: 45%;
+  margin-left: -80%;
+}
+
+nav {
+  width: 100%;
+}
+
+.navbar {
+  float: left;
+  padding-top: 20px;
+  color: black;
+
+  list-style-type: none;
+  margin-left: 5%;
+  margin-top: 2rem;
+  display: flex;
+}
+
+li a {
+  text-decoration: none;
+  font-weight: 600;
+  padding: 1em;
+  color: black;
+  font-size: 120%;
+}
+
+li a:hover {
+  background: white;
+  cursor: pointer;
+}
+
+.icons {
+  float: right;
+  list-style-type: none;
+  margin-right: 8%;
+  display: flex;
+  margin-top: 2.5%;
+}
+
+/*------------------------------------------------- social-media-icons for both Navbar nd Footer */
+
+.social-media-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 80%;
+  padding: 5px;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+/*------------------------------------------------- Home Page---------------------------------------------------------------------- */
+
+.imgHockey {
+  position: relative;
+  margin-left: 56%;
+  margin-top: 5.5%;
+  width: 40%;
+  height: 40%;
+}
+
+
+.slg1 {
+  color: black;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 350%;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  width: 50%;
+  top: 15%;
+  margin-left: 6%;
+}
+
+.slg2 {
+  color: #ccb5b4;
+  position: absolute;
+  width: 100%;
+  height: 32px;
+  font-family: "Source Sans Pro", sans-serif;
+  left: 8%;
+  top: 46%;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 100%;
+}
+
+.btn {
+  color: white;
+  font-size: 1rem;
+  position: absolute;
+  width: 11%;
+  height: 7%;
+  left: 20%;
+  top: 55%;
+  background: #8c30f5;
+  border-radius: 8px;
+}
+.btn:hover {
+  background-color: #7f11fd;
+}
+
+.btn:active {
+  background-color: #8c30f5;
+
+  transform: translateY(4px);
+}
+
+.imgSports {
+  position: relative;
+  margin-left: 6%;
+  margin-top: 2%;
+  width: 40%;
+  height: 40%;
+}
+
+.contentHome {
+  background-color: #7f11fd;
+    color: papayawhip;
+    font-weight: bolder;
+    padding: 2%;
+    width: 40%;
+    margin-top: -14%;
+    margin-left: 52%;
+    font-size: 25px;
+    height: 20%;
+}
+
+/*------------------------------------------------- Footer---------------------------------------------------------------------- */
+
+footer {
+  position: absolute;
+  margin-top: 5vh;
+  left: 0%;
+  width: 100%;
+  background-color: black;
+  height: 8.6%;
+  text-align: center;
+}
+
+.logo2 {
+  position: absolute;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 130%;
+  color: white;
+  bottom: 25%;
+  left: 15%;
+  text-align: center;
+  margin: auto;
+}
+.logo2:hover {
+  cursor: pointer;
+}
+
+.logoicon2 {
+  position: absolute;
+  left: -50px;
+  top: -35px;
+  height: 5vh;
+  
+}
+
+.dev {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 80%;
+  color: whitesmoke;
+  position: absolute;
+  left: 40%;
+  bottom: 16%;
+}
+
+.QClink:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+.QClink:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/* mouse over link */
+.QClink:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.icons2 {
+  float: right;
+  list-style-type: none;
+  margin-top: 0.8%;
+  margin-right: 10%;
+  display: flex;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+li img {
+  padding: 1em;
+  height: 70%;
+}
+
